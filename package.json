@@ -1,0 +1,24 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.18.1",
+    "decompress": "^4.2.1",
+    "download": "^8.0.0",
+    "puppeteer": "^13.1.2"
+  }
+}
